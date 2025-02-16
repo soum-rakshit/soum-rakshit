@@ -1,4 +1,4 @@
-## Hi there 👋
+## I am Rakshit 👋
 
 <!--
 **soum-rakshit/soum-rakshit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
