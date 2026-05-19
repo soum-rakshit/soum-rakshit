@@ -38,11 +38,12 @@ I am a **Full Stack Engineer** passionate about building scalable, production-gr
 - Implemented a **Split-Write Strategy**: high-volume event logs streamed asynchronously into **MongoDB** using the Bucket Pattern, while relational metadata profiles route to **Supabase Postgres DB** using **Drizzle ORM**.
 - Engineered background execution and scanning queues using **Inngest** for resilient retries.
 
-#### 🚖 **Production-Grade Ride-Hailing Mesh (Uber Clone)**
-*An end-to-end booking ecosystem featuring a low-latency communication mesh and caching layers.*
-- Built bidirectional socket links using **Socket.io** for microsecond location broadcasts, ride tracking, and dynamic state-updates.
-- Optimized query boundaries by offloading high-frequency coordinator states and live tracking into **Redis** memory caches.
-- Extended interfaces to a native multiplatform ecosystem using **React Native** and **Expo**.
+#### 🚖 **Production-Grade Ride-Hailing Platform (Uber Clone)**
+*A production-grade, end-to-end ride-booking platform featuring real-time tracking, dynamic routing, and bidirectional communication.*
+- Built an end-to-end ride-booking platform with **real-time ride tracking** via **Google Maps API** — including route rendering, distance/fare calculation, and dynamic ETA estimation.
+- Engineered a **Socket.io** event layer for bidirectional, low-latency communication between riders and captains — enabling live location broadcasts, ride-accept/reject signals, and trip-status updates.
+- Implemented **JWT-based custom authentication** with separate registration, login, and session management flows for two distinct user roles (rider & captain); secured REST endpoints via middleware guards.
+- Designed a normalized **MongoDB** schema for users, captains, rides, and trip records; built a full RESTful API with ExpressJS covering booking, cancellation, and trip-history operations.
 
 #### 💻 **IDE Agent (Autonomous Workspace Runner)**
 *A terminal-based autonomous workspace runner that plans, scaffolds, and validates raw prompt execution lines independently.*
@@ -66,20 +67,3 @@ I am a **Full Stack Engineer** passionate about building scalable, production-gr
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
-<!--![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=soum-rakshit&layout=compact) -->
-
-
-<!--
-**soum-rakshit/soum-rakshit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
